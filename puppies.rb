@@ -27,8 +27,10 @@ end
 def some_puppies (number_of_puppies,maximum_puppy_allowance)
   if number_of_puppies < maximum_puppy_allowance 
     return "Good job!"
-  if number_of_puppies > maximum_puppy_allowance
+  elsif number_of_puppies > maximum_puppy_allowance
     return "Get back on puppy restriction!"
+  else 
+      return "Yay puppies"
 end 
 number_of_puppies(3)
 maximum_puppy_allowance(4)
