@@ -48,6 +48,6 @@ def both_animals (number_of_puppies, number_of_cats)
   end 
 end 
 
-new_animal_accumulation(0,5)
+both_animals(0,5)
   
 
