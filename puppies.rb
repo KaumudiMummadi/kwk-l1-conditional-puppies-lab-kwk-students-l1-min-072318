@@ -45,5 +45,9 @@ def new_animal_accumulation (number_of_puppies, number_of_cats)
     return "Good job!"
   elsif number_of_puppies && number_of_cats >= 1 
     return "Slow back down!"
+  end 
+end 
+
+new_animal_accumulation(1,3)
   
 
