@@ -44,11 +44,10 @@ def both_animals (number_of_puppies, number_of_cats)
   if number_of_puppies && number_of_cats == 0 
     return "Good job!"
   elsif number_of_puppies && number_of_cats >= 1 
-    return "Get back to your animal goals!"
+    return "Good job!"
   end 
 end 
 
 both_animals(0,5)
-both_animals(5,5)
   
 
